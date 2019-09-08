@@ -1,0 +1,45 @@
+.gameboard{
+width: 372px;
+height: 372px;
+margin: auto;
+}
+
+.square {
+	float: left;
+	background: rgba(255,255,255,.7);
+	width: 122px;
+	height: 122px;
+	border: 1px solid black;
+	-moz-box-shadow:8px 8px 15px #000;
+	-webkit-box-shadow: 8px 8px 15px #000;
+	box-shadow: 8px 8px 15px #000;
+	cursor: pointer;
+	text-align: center;
+	font-size: 100px;
+}
+.ex{
+	background-color: white;
+}
+.oh{
+	background-color: white;
+}
+body{
+	background: no-repeat center center fixed;
+	background: url(http://bgfons.com/uploads/notebook/notebook_texture2464.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+.spacer{
+	padding: 5%;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+	color: white;
+	font: 3em Geoegia, "Bitstream Charter", "URW Bookman L", "Century Schoolboock L", serif;
+}
+.btn{
+-moz-box-shadow:8px 8px 15px #000;
+	-webkit-box-shadow: 8px 8px 15px #000;
+	box-shadow: 8px 8px 15px #000;
+}
