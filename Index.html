@@ -7,66 +7,21 @@
 
 
 
-
-<div class="spacer">
-	Tic-Tac-Toe
+<div class="board__settings"><i class="fa fa-cog board__settings-cog"></i>
+    <h1 class="board__header-settings">Choose Player<div class="board__row">
+            <div class="board__settings__choice-cross"></div>
+            <div class="board__settings__choice-nought"></div>
+        </div>
+    </h1>
 </div>
-
-<div class="gameboard" id="gameboard">
-	<div class="row">
-		<div class="square sq1"></div>
-		<div class="square sq2"></div>
-		<div class="square sq3"></div>
-	</div>
-
-
-	<div class="row">
-		<div class="square sq4"></div>
-		<div class="square sq5"></div>
-		<div class="square sq6"></div>
-	</div>
-
-
-	<div class="row">
-		<div class="square sq7"></div>
-		<div class="square sq8"></div>
-		<div class="square sq9"></div>
-	</div>
-
-	</div> <!--gameboard-->
-
-<div class="col-md-12 text-center" id="mode">
-	Chose game mode </br>
-
-	<a href="#" class="btn btn-primary btn-lg" id="1player"> 1 Player </a>
-	<a href="#" class="btn btn-primary btn-lg" id="2player"> 2 Player</a>
-
+<div class="board__difficulty"><i class="fa fa-cog board__settings-cog"></i>
+    <h1 class="board__header-difficulty">Select Difficulty</h1>
+    <div class="board__difficulty__button-easy" id="easy">Easy</div>
+    <div class="board__difficulty__button-medium" id="medium">Medium</div>
+    <div class="board__difficulty__button-hard" id="hard">Hard</div>
 </div>
-
-
-<div class="col-md-12 text-center" id="XorO">
-	Chose X or O </br>
-
-	<a href="#" class="btn btn-primary btn-lg" id="X"> X </a>
-	<a href="#" class="btn btn-primary btn-lg" id="O"> O</a>
-
+<div class="board">
+    <div class="board__row"><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="0"></label><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="1"></label><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="2"></label></div>
+    <div class="board__row"><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="3"></label><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="4"></label><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="5"></label></div>
+    <div class="board__row"><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="6"></label><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="7"></label><input class="board__slot-hidden" type="radio" /><label class="board__slot" id="8"></label></div>
 </div>
-
-<div class="spacer"></div>
-<div class="col-md-12 text-center" id="reload">
-	<a href="#" class="btn btn-primary btn-lg">Reload Game?</a>
-</div>
-<div class="col-md-12 text-center spacer" id="winpl1">
-	Player 1 has WON the Game!!!
-	</div>
-<div class="col-md-12 text-center spacer" id="winpl2">
-	Player 2 has WON the Game!!!
-	</div>
-
-
-<div class="col-md-12 text-center spacer" id="hal">
-	AI has WON the Game
-	</div>
-	<div class="col-md-12 text-center spacer" id="draw">
-		DRAW!
-	</div>
